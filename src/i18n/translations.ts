@@ -61,23 +61,24 @@ export const translations = {
       en: "System Components",
       fr: "Composants du Système",
     },
-    viewVideo: { ar: "عرض ثلاثي الأبعاد", en: "View 3D", fr: "Vue 3D" },
+    viewVideo: { ar: "مشاهدة الفيديو", en: "See Video", fr: "Voir la vidéo" },
     downloadVideo: { ar: "تحميل الفيديو", en: "Download Video", fr: "Télécharger la vidéo" },
-    viewCard: { ar: "عرض ثلاثي الأبعاد", en: "View 3D", fr: "Vue 3D" },
+    viewCard: { ar: "مشاهدة الصورة", en: "See Image", fr: "Voir l'image" },
+    comingSoon: { ar: " قريباً سينشر الفديو", en: "Video coming Soon", fr: "Video Bientôt" },
     items: [
       {
         name: { ar: "المدقق - معبر ثابت / حسب المسافة", en: "Validators: Fixed / Distance Fare", fr: "Validateurs: Tarif Fixe / Distance" },
         desc: { ar: "يتحقق من التذاكر بأسعار ثابتة لكل رحلة أو يحسب الأجرة بناءً على المسافة المقطوعة", en: "Validates tickets with fixed fares per trip or calculates fare based on distance traveled", fr: "Valide les billets avec tarifs fixes par trajet ou calcule le tarif selon la distance" },
-        media: "video",
-        src: "/videos/1.mp4",
+        media: "coming_soon",
+        src: "",
         icon: "bus",
         detail: { ar: "جهاز المدقق يتحقق من بطاقات RFID ويخصم الأجرة تلقائياً. يدعم التسعير الثابت والمبني على المسافة. يعمل عبر ESP8266 مع اتصال MQTT فوري.", en: "The validator device checks RFID cards and automatically deducts the fare. Supports fixed and distance-based pricing. Runs on ESP8266 with real-time MQTT connection.", fr: "Le validateur vérifie les cartes RFID et déduit automatiquement le tarif. Supporte la tarification fixe et par distance. Fonctionne sur ESP8266 avec connexion MQTT en temps réel." },
       },
       {
         name: { ar: "طرفية التوزيع", en: "Recharge Terminal", fr: "Terminal de Recharge" },
         desc: { ar: "تتيح إعادة الشحن بالعملات المعدنية الفورية", en: "Allows instant coin-based recharging", fr: "Permet la recharge instantanée par pièces" },
-        media: "video",
-        src: "/videos/2.mp4",
+        media: "coming_soon",
+        src: "",
         icon: "coin",
         detail: { ar: "طرفية التوزيع تتيح للمستخدمين إعادة شحن بطاقاتهم بالعملات المعدنية. تعرض شاشة LCD الرصيد الحالي وتؤكد كل معاملة فورياً عبر MQTT.", en: "The recharge terminal allows users to top up their cards with coins. The LCD screen displays the current balance and confirms each transaction instantly via MQTT.", fr: "Le terminal de recharge permet aux utilisateurs de recharger leurs cartes avec des pièces. L'écran LCD affiche le solde actuel et confirme chaque transaction instantanément via MQTT." },
       },
@@ -194,9 +195,9 @@ export const translations = {
   },
   footer: {
     text: {
-      ar: "نظام الدفع الذكي للتنقل الحضري · CiGo Card © 2026 · ESI Sidi-Bel-Abbès",
-      en: "Smart Payment System for Urban Transit · CiGo Card © 2026 · ESI Sidi-Bel-Abbès",
-      fr: "Système de Paiement Intelligent pour le Transport Urbain · CiGo Card © 2026 · ESI Sidi-Bel-Abbès",
+      ar: "نظام الدفع الذكي للتنقل الحضري · CIGO Card © 2026 · ESI Sidi-Bel-Abbès",
+      en: "Smart Payment System for Urban Transit · CIGO Card © 2026 · ESI Sidi-Bel-Abbès",
+      fr: "Système de Paiement Intelligent pour le Transport Urbain · CIGO Card © 2026 · ESI Sidi-Bel-Abbès",
     },
   },
 };

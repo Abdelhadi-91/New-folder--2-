@@ -4,8 +4,8 @@ import { translations } from "@/i18n/translations";
 const Footer = () => {
   const { lang } = useLanguage();
   return (
-    <footer className="py-8 border-t border-border text-center">
-      <p className="text-muted-foreground text-sm">{translations.footer.text[lang]}</p>
+    <footer className="py-6 sm:py-8 border-t border-border text-center px-4">
+      <p className="text-muted-foreground text-xs sm:text-sm">{translations.footer.text[lang]}</p>
     </footer>
   );
 };

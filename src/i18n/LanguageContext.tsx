@@ -9,16 +9,16 @@ interface LanguageContextType {
 }
 
 const LanguageContext = createContext<LanguageContextType>({
-  lang: "ar",
+  lang: "en",
   setLang: () => {},
-  dir: "rtl",
-  fontClass: "font-arabic",
+  dir: "ltr",
+  fontClass: "font-body",
 });
 
 export const useLanguage = () => useContext(LanguageContext);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [lang, setLang] = useState<Lang>("ar");
+  const [lang, setLang] = useState<Lang>("en");
   const dir = lang === "ar" ? "rtl" : "ltr";
   const fontClass = lang === "ar" ? "font-arabic" : "font-body";
 
