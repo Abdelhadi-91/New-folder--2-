@@ -50,7 +50,7 @@ export const translations = {
       fr: "◆ Notre Vision",
     },
     text: {
-      ar: "تجربة نقل عام متصلة ومقالة ومدفوعة بالبيانات تجعل كل رحلة أذكى وأسرع وأكثر شفافية. مصممة للمدن الذكية الناشئة بتكلفة نشر فحتشنة.",
+      ar: "تجربة نقل عام متصلة ومقالة ومدفوعة بالبيانات تجعل كل رحلة أذكى وأسرع وأكثر شفافية. مصممة للمدن الذكية الناشئة بتكلفة نشر محسنة.",
       en: "A connected, fair, and data-driven public transit experience that makes every trip smarter, faster, and more transparent. Designed for emerging smart cities with minimal deployment cost.",
       fr: "Une expérience de transport public connectée, équitable et axée sur les données qui rend chaque trajet plus intelligent, plus rapide et plus transparent. Conçue pour les villes intelligentes émergentes avec un coût de déploiement minimal.",
     },
